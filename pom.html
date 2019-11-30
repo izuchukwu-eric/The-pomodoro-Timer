@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>pomodoro timer</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="pom.css">
+    </head>
+<body>
+    <div class="container-fluid cut">
+        <div class="">
+            <p class="text-primary">pomodoro Timer</p>
+            <p id="display">25:00</p>
+            <button id="more" class=" btn btn-primary">+</button>
+            <button id="less" class=" btn btn-primary">-</button>
+      </div>
+      <div id="timer" class="piechart slice"></div>
+      <button id="go" class="btn btn-primary">start/resume</button>
+      <button id="pause" class="btn btn-primary">pause</button>
+      <button id="reset" class="btn btn-primary">stop/reset</button>
+    </div>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="pom.js"></script>
+</body>
+</html>
